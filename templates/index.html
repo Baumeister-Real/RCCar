@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>RC Car Control Panel</title>
+{% endblock %}
+
+{% block body %}
+<button><a href="/forward">Forward</a></button>
+<br>
+<button><a href="/backward">Backward</a></button>
+<br>
+<button><a href="/left">Left</a></button>
+<br>
+<button><a href="/right">Right</a></button>
+<br>
+<button><a href="/stop">Stop</a></button>
+<br>
+<h1>Video Streaming Demonstration</h1>
+<img src="/video_feed">
+{% endblock %}
